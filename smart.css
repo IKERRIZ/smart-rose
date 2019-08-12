@@ -1,0 +1,109 @@
+body{
+    background-image: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    /*background-color: aqua; */
+    font-family:Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:20px;
+}
+h1,h2{
+    color: blueviolet;
+    font-size: 20px;
+}
+#slogan,h3{
+    color:purple
+}
+#home{
+
+    border:2px;
+    border-right: 10px;
+    
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+nav>img{
+    height:100px ;
+    width: 100px;
+
+}
+nav>ul{
+    text-align: right;
+    margin-right: 20px;
+    padding: 8px;
+}
+ul>li{
+    display:inline;
+}
+nav>ul>li>a{
+    padding: 20px;
+    text-transform: uppercase;
+    color:green;
+    text-decoration:none;
+    text-align: right;
+
+}
+
+nav>ul>li>a:hover{
+  /*  padding: 20px;*/
+    color:blue;
+    font-style: italic;
+    margin-left: 40px;
+    /* box-shadow: 3px 4px 5px purple; */
+
+}
+
+table,th,td{
+    border: 2px solid purple;
+    border-collapse: collapse;
+    padding:20px;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 400px;
+    border-radius:20px;
+    
+}
+
+
+#one,#two{
+    display: flex;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+#contacts{
+    text-align: center;
+}
+#services{
+    text-align: center;
+    /* margin-right: 350px; */
+
+}
+#table{
+    margin-left:400px; 
+}
+#location{
+    text-align: center;
+}
+.hair>h4, .acry>h4, .body>h4, .facial>h4{
+    text-align: center;
+    font-family: cursive;
+}
+.hair>p, .acry>p,.body>p, .facial>p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.hair, .facial, .acry, .body{
+    width: 1200px;
+    padding: 10px;
+    box-shadow: 5px 5px 12px gray;
+    margin: 70px; 
+    height: 300px;
+  }
+  #about us{
+      text-align: center;
+  }
